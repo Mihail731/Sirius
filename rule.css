@@ -1,0 +1,54 @@
+body {
+  font-family:verdana;
+  font-size:14px;
+  width:1080px;
+  margin-left:420px;
+  background:url('https://i.imgur.com/sdw2ih7.jpg');
+   background-size:1920px;
+  background-repeat:no-repeat;
+}
+#square {
+  background-color:black;
+  width: 160px;
+  height: 120px;
+  left:0px;
+  position: relative;
+  animation: fly_1 6s infinite;
+}
+.bodys {
+  background-color:blue;
+}
+.intro{
+  
+}
+.game__body:before{
+	}
+@keyframes fly_1{
+  0%,100% {transform: translate(30vw, 0vh);}
+  13% {transform: translate(55vw, 15vh);}
+	25% {transform: translate(60vw, 30vh);}
+  38% {transform: translate(55vw, 45vh);}
+  50% {transform: translate(30vw, 60vh);}
+  68% {transform: translate(10vw, 45vh);}
+  75% {transform: translate(0vw, 30vh);}
+  88% {transform: translate(10vw, 15vh);}
+}
+
+textarea {
+  height: 140px;
+  width: 300px;
+  display: block;
+}
+.wide{
+  font-size:20px;
+}
+.intro{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+}
+.playground{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+}
